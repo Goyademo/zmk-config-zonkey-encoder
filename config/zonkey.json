@@ -66,9 +66,8 @@
     },
     {
       "ref": "left_encoder_2",
-      "name": "encoder_2",
-      "identifier": "encoder_2",
-      "compatible": "alps,ec11",
+      "name": "encoder_2 ",
+      "identifier": "encoder_2 ",
       "enabled": false
     }
   ]
