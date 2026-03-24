@@ -65,10 +65,11 @@
       "enabled": false
     },
     {
-      "ref": "right_encoder",
-      "name": "encoder_right",
-      "identifier": "encoder_right",
+      "ref": "left_encoder_b",
+      "name": "encoder_left_b",
+      "identifier": "encoder_left_b",
+      "compatible": "alps,ec11",
       "enabled": false
-    }
+    },
   ]
 }
