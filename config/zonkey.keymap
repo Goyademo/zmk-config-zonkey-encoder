@@ -196,7 +196,7 @@
 &kp LEFT_SHIFT  &kp Z             &kp X         &lt 6 C           &lt 5 V      &lt 4 B        &trans       &kp MINUS  &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL       &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN  &trans             &kp BACKSPACE  &kp ENTER                                 &kp DEL
             >;
-        sensor-bindings = <&scroll_up_down>;
+        sensor-bindings = <&scroll_up_down　&volume_encoder>;
     };
 
         layer_1 {
