@@ -225,7 +225,7 @@
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT            &lt 3 INT_HENKAN  &lt 2 SPACE                          &lt 1 INT_MUHENKAN
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
         };
 
         layer_3 {
