@@ -12,7 +12,9 @@
         ;
 };
 
-left_encoder_1: encoder_1 {
+/* 新しいノードを定義するときはルートノード内に入れる */
+/ {
+    left_encoder_1: encoder_1 {
         compatible = "alps,ec11";
         a-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; 
@@ -27,3 +29,4 @@ left_encoder_1: encoder_1 {
         steps = <80>;
         status = "okay";
     };
+};
