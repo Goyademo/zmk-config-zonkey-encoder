@@ -210,9 +210,9 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans       &trans                                   &trans         &trans     &moA  &moB  &moC
-&kp TAB         &trans        &trans        &trans            &trans       &trans              &trans  &kp JP_EISU  &trans         &trans     &moD  &moE  &kp ENTER
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans              &trans  &trans       &kp JP_KANA    &moF       &moG  &moH  &kp ENTER
+&kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans       &trans                                                &trans         &trans     &moA  &moB  &moC
+&kp TAB         &trans        &trans        &trans            &trans       &trans              &trans               &kp JP_EISU  &trans         &trans     &moD  &moE  &kp ENTER
+&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans              &trans               &trans       &kp JP_KANA    &moF       &moG  &moH  &kp ENTER
 &mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN  &trans               &kp BACKSPACE  &kp ENTER                         &kp DEL
             >;
 
@@ -227,10 +227,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp N1          &mo2          &kp N3        &kp N4            &kp N5       &trans                              &mo6           &mo7       &mo8            &mo9            &mo0
-&trans          &trans        &trans        &trans            &trans       &trans              &trans  &trans  &trans         &trans     &trans          &kp UP_ARROW    &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans              &trans  &trans  &trans         &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN  &trans          &kp BACKSPACE  &kp ENTER                                                   &kp DEL
+&kp N1          &mo2          &kp N3        &kp N4            &kp N5       &trans                                      &mo6           &mo7       &mo8            &mo9            &mo0
+&trans          &trans        &trans        &trans            &trans       &trans              &trans          &trans  &trans         &trans     &trans          &kp UP_ARROW    &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans              &trans          &trans  &trans         &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN  &trans          &kp BACKSPACE &kp ENTER                                  &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -239,8 +239,8 @@
         layer_3 {
             bindings = <
 &kp F1          &kp F2        &kp F3        &kp F4            &kp F5       &trans                              &kp F6         &kp F7     &kp F8  &kp F9  &kp F10
-&kp F11         &kp F12       &trans        &trans            &trans       &trans              &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans              &trans  &trans  &trans         &trans     &trans  &trans  &trans
+&kp F11         &kp F12       &trans        &trans            &trans       &trans              &trans          &trans  &trans         &trans     &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans              &trans          &trans  &trans         &trans     &trans  &trans  &trans
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN  &trans          &kp BACKSPACE  &kp ENTER                           &kp DEL
             >;
 
@@ -260,9 +260,9 @@
 
         layer_5 {
             bindings = <
-&trans          &trans        &trans        &trans          &trans     &trans                            &trans         &trans     &trans  &trans  &trans
-&trans          &trans        &trans        &trans          &trans     &trans            &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans          &trans     &trans            &trans  &trans  &trans         &trans     &trans  &trans  &trans
+&trans          &trans        &trans        &trans          &trans     &trans                                    &trans         &trans     &trans  &trans  &trans
+&trans          &trans        &trans        &trans          &trans     &trans            &trans          &trans  &trans         &trans     &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans          &trans     &trans            &trans          &trans  &trans         &trans     &trans  &trans  &trans
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp INT_HENKAN  &kp SPACE  &kp INT_MUHENKAN  &trans          &kp BACKSPACE  &kp ENTER                          &kp DEL
             >;
 
@@ -271,9 +271,9 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans                                &trans
             >;
 
