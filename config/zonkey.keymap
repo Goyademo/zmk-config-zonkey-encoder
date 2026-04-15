@@ -270,7 +270,9 @@
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp INT_HENKAN  &kp SPACE  &kp INT_MUHENKAN  &trans  &kp BACKSPACE  &kp ENTER  &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings =
+                <&scroll_up_down>,
+                <&inc_dec_kp LA(PG_DN) LA(PG_UP)>;
         };
 
         layer_6 {
@@ -281,7 +283,9 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings =
+                <&scroll_up_down>,
+                <&inc_dec_kp LA(RIGHT) LA(LEFT)>;
         };
     };
 };
