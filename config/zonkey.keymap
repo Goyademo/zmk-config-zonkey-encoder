@@ -266,10 +266,10 @@
 
         layer_5 {
             bindings = <
-&trans          &trans        &trans        &trans          &trans     &trans                    &trans         &trans     &trans   &trans  &trans
-&trans          &trans        &trans        &trans          &trans     &trans            &trans  &trans         &trans     &trans   &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans          &trans     &trans            &trans  &trans         &trans     &trans   &trans  &trans  &trans
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp INT_HENKAN  &kp SPACE  &kp INT_MUHENKAN  &trans  &kp BACKSPACE  &kp ENTER  &kp DEL
+&trans          &trans        &trans        &trans  &trans  &trans          &trans         &trans     &trans   &trans  &trans
+&trans          &trans        &trans        &trans  &trans  &trans  &trans  &trans         &trans     &trans   &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans  &trans  &trans  &trans  &trans         &trans     &trans   &trans  &trans  &trans
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &kp BACKSPACE  &kp ENTER  &kp DEL
             >;
 
             sensor-bindings =
